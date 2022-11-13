@@ -1,0 +1,88 @@
+:root {
+  --font-hubballi: 'Hubballi', sans-serif;
+  --font-Monteserrat: 'Montserrat', sans-serif;
+  --color-fundo: #F2F3F4;
+  --color-cinza: #9EA3AD;
+  --color-rozo: #ECB7BF;
+  --color-fundo-suave: #C4B6A6;
+  --color-roso-fraco: #FBD2D7;
+  --color-roso: #F6CFCA;
+}
+
+
+
+body {
+  background-color: var(--color-fundo);
+}
+
+.header {
+  background-color: var(--color-roso-fraco);
+  font-family: var(--font-hubballi);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+
+.nameAndTitle {
+  background-color: var(--color-fundo);
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+
+.nameAndTitle h1, h2 {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+#contact {
+  list-style: none;
+}
+
+#contact  i {
+  width: 25px;
+  color: var(--color-roso);
+  transition: 1s ease;
+}
+
+#contact i:hover {
+  color: #000;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-column-gap: 20px;
+}
+
+.saidebar, .content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+
+.card h3 {
+  font-family: var(--font-hubballi);
+}
+
+.card {
+  font-family: var(--font-Monteserrat);
+  border: 1px solid #ead;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
